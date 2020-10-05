@@ -80,7 +80,7 @@ print('---------')
 print('3|4|5')
 print('---------')
 print('6|7|8')
-print('----------------------')
+print('---------------------')
 
 while True: 
     print(board['1']+' | '+board['2']+' | '+board['3'])
@@ -113,5 +113,5 @@ while True:
                 print('Invalid input, please try again')
                 continue
     total_moves += 1
-    print('----------------------')
+    print('---------------------')
 
