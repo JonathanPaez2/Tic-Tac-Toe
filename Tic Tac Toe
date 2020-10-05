@@ -24,6 +24,8 @@ def check():
     # for diagonal(start)
     if board['1'] == 'X' and board['5'] == 'X' and board['9'] == 'X':
         print('Player One Won!')
+    if board['3'] == 'X' and board['5'] == 'X' and board['7'] == 'X':
+        print('Player One Won!')
         return 1
     # for diagonal(end)
     # for vertical(start)
@@ -53,6 +55,8 @@ def check():
     # for diagonal(start)
     if board['1'] == 'O' and board['5'] == 'O' and board['9'] == 'O':
         print('Player Two Won!')
+    if board['3'] == 'O' and board['5'] == 'O' and board['7'] == 'O':
+        print('Player Two Won!')
         return 1
     # for diagonal(end)
     # for vertical(start)
@@ -76,7 +80,7 @@ print('---------')
 print('3|4|5')
 print('---------')
 print('6|7|8')
-print('**********************************')
+print('----------------------')
 
 while True: 
     print(board['1']+' | '+board['2']+' | '+board['3'])
@@ -109,5 +113,5 @@ while True:
                 print('Invalid input, please try again')
                 continue
     total_moves += 1
-    print('**********************************')
+    print('----------------------')
 
