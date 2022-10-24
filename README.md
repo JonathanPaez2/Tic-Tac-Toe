@@ -1,2 +1,1 @@
-# Projects
-Projects done in the language of Python.
+# Tic Tac Toe
