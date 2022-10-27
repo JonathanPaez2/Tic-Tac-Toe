@@ -1,2 +1,2 @@
 # Python
-Projects done in the language of python
+Projects done in Python
